@@ -1,0 +1,45 @@
+{
+    "name": "VISCAController",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cramduino/VISCAController.git"
+    },
+    "authors": [
+        {
+            "name": "Grant Le Roux",
+            "email": "grant.leroux+cramduino.visca_controller@gmail.com",
+            "maintainer": true
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "dependencies": [
+        {
+            "owner": "cramduino",
+            "name": "ButtonArray",
+            "version": "^1.0.0"
+        },
+        {
+            "owner": "cramduino",
+            "name": "LEDs",
+            "version": "^1.0.0"
+        },
+        {
+            "owner": "cramduino",
+            "name": "Sticks",
+            "version": "^1.0.0"
+        }
+    ],
+    "frameworks": [ "arduino" ],
+    "platforms": [ "atmelavr" ],
+    "headers": [ "VISCAController.h" ],
+    "examples": [
+        {
+            "name": "Example1",
+            "base": "examples/Example1",
+            "files": [ "Example1.cpp" ]
+        }
+    ]
+}
